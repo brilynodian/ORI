@@ -1,0 +1,20 @@
+{
+    "self_mode": false,
+	"autobio": false,
+	"antihidetag": true,
+	"user_register": false,
+	"anti_delete" : false,
+	"anticall": true,
+	"auto_welcome_msg": true,
+	"auto_leave_msg": true,
+	"prefix": ".",
+	"language":"ind",
+	"ownerNumber": "6289512497753",
+	"ownerNumberr": "6289512497753",
+	"cr": "@ZYS BOT",
+	"ownername": "BRILY",
+	"botname":"ZYS BOT",
+	"thumb":"thumbnail_1.jpg",
+	"fakethumb":"thumbnail_1.jpg", 
+	"fake": " 「  ZYS BOT  」\nCreated By @BRILY"
+}
