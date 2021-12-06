@@ -1,16 +1,15 @@
 const jadibut = () =>{
 return`┏━━━━⬣ *LIST JADIBOT *
 ┃⬡ _TES 30 MENIT FREE_
-┃⬡ _30K PERMANEN_
+┃⬡ _50K PERMANEN_
 ┗⬣
-•30K termasuk custom namabot,thumbnailbot,ownerbot,harga sewa dan payment
+•termasuk custom namabot,thumbnailbot,ownerbot,harga sewa dan payment
 SISTEM
 •TF
 •BERI TAU NAMABOT YG AKAN DIBUAT DLL
 •TUNGGU BEBERAPA MENIT
 •SCAN QR YG OWNER BERIKAN
 •BOT LANGSUNG TERSAMBUNG
-•INGIN BOT ON 24? PAKE AKUN RAILAWAY DAN HEROKU SENDIRI (JIKA TIDAK TAU DIAJARKAN OWNER) 
 ├─ 「 👨‍💻  *RUN ON* 」
 │
 │ ⤷ *Heroku*
