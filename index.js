@@ -169,7 +169,7 @@ fthumb = setting.fakethumb
 hit_today = []
 blocked = []
 ban = []
-limitawal = "50"
+limitawal = "25"
 gcounttprem = "55" 
 gcounttuser = "100" 
 
@@ -177,7 +177,7 @@ let multi = true
 let nopref = false
 let single = false
 let prefa = setting.prefix
-let menusimple = true
+let menusimple = false
 let Mloc = false
 let autobio = setting.autobio
 let antihidetag = setting.antihidetag
@@ -187,15 +187,15 @@ autorespon = true
 offline = false
 readGc = true 
 readPc = true
-antitrol = false 
+antitrol = true
 bugc = false
 autovn = true
 autoketik = false
 autoregister = setting.user_register
 
 img = setting.img
-baper = 'SEWA+PREMIUM 5K KLIK DISINI'
-apiku = 'https://bit.ly/storezysbot'
+baper = 'DONT CLICK HERE'
+apiku = 'https://youtu.be/BBJa32lCaaY'
 gc_wa_lu = 'https://chat.whatsapp.com/DXLvgf5V0ScDS5YDxHOh8y' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
@@ -2232,23 +2232,20 @@ let p1 = await alpha.getStatus(sender)
 anunya = process.uptime()
 ini_anu =`${ucapannya2}
 
-╭─❒ 「 Bot Info 」 ❒
-├ Creator :  @${koko.split('@')[0]}
-├ Powered  : @${ini_mark.split('@')[0]}
-├ Prefix :   ${prefix}
-├ Total hit : ${hitall}
-├ Hit today : ${hit_today.length}
-├ Speed : ${latensii.toFixed(4)} Second
-├ Runtime : ${kyun(anunya)}
-├ Battery : ${isBattre}
-╰❒ Charging : ${isCharge}
-
 ╭─❒ 「 User Info 」 ❒
 ├ Name : ${pushname}
 ├ Bio : ${p1 ? `${p1.status}` : '-'}
 ├ Nomor : @${sender.split('@')[0]}
 ├ Me : ${mek.key.fromMe ? 'True' : 'False'}
 ╰❒ Owner : ${isOwner ? 'True' : `False`}
+
+╭─❒ 「 *RULES BOT* 」 ❒
+├ *NO SPAM BOT*
+├ *NO CALL/VC BOT(AUTO BANNED)*
+├ *NO HINA BOT(HARGAI CREATOR)*
+├ *BOT TIDAK ON 24JAM*
+├ *NO SPAM CALL VC OWNER*
+╰❒ SC : zeeone ofc
 `
 if(menusimple == false){
 sendButDoc(from, ini_anu, `_Please Don't spam bot, pause 3 seconds per command._\n_Thanks!_`, sender, koko, ini_mark)
@@ -2260,7 +2257,7 @@ let bacotlu1 = media1.message["ephemeralMessage"] ? media1.message.ephemeralMess
 const buttons1 = [
   {buttonId: 'ownerku', buttonText: {displayText: '⋮☰ OWNER'}, type: 1},
   {buttonId: 'statiktiknya', buttonText:{displayText: '✓ STATISTIC'}, type: 1},
-  {buttonId: 'Command', buttonText: {displayText: '❍ LIST MESSAGE'}, type: 1}
+  {buttonId: 'Command', buttonText: {displayText: '❍ BUTTON MENU'}, type: 1}
 ]
 
 const btn1 = {
