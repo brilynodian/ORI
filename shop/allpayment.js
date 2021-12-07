@@ -1,5 +1,5 @@
 const allpayment = (prefix) => {
-return `PULSA : 0895613504141
+return `PULSA+DANA : 0895613504141
 	
 Sebelum melakukan pembayaran ada baiknya anda menghubungi owner terlebih dahulu!
 `
