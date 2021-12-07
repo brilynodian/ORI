@@ -1,5 +1,5 @@
 const donasibot = () => {
-return `PULSA : 0895613504141
+return `PULSA+DANA : 0895613504141
 `
 	}
 
