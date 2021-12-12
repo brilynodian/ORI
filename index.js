@@ -173,9 +173,9 @@ limitawal = "25"
 gcounttprem = "55" 
 gcounttuser = "100" 
 
-let multi = true
+let multi = false
 let nopref = false
-let single = false
+let single = true
 let prefa = setting.prefix
 let menusimple = false
 let Mloc = false
