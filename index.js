@@ -3286,7 +3286,7 @@ break
 		            fs.unlinkSync(ran)
 		            })
 		            break
-		            case 'kusonime':
+case 'kusonime':
 
 			try {
 				if (args
